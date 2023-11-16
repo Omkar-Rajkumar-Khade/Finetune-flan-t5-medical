@@ -1,7 +1,4 @@
-Certainly! Here's the entire README for your Medical Question Answering with T5 project:
-
-```markdown
-# Medical Question Answering with T5
+# MediBot
 
 This repository contains code for fine-tuning a T5 model on a medical question-answering dataset using the Hugging Face Transformers library. The model is trained to generate answers to medical questions.
 
@@ -39,7 +36,9 @@ This will launch a prompt where you can input medical questions, and the model w
 To use the streamlit application from the base directory
 ```bash
 streamlit run src/app.py
-``` 
+```
+
+![screenshot](https://github.com/SRDdev/Finetune-flan-t5-medical/blob/8e33064dd62d68beb5ff23e3000a5beed4b2c12b/assets/Screenshot.png)
 
 ## Training
 The training process involves loading the dataset, tokenization, model initialization, preprocessing, setting up evaluation metrics (ROUGE score), and training using a Seq2Seq trainer.
