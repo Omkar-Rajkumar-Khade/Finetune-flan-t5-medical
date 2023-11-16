@@ -35,6 +35,16 @@ After training, the model is evaluated on a test dataset. ROUGE score is used as
   7. eval_samples_per_second: 4.475
   8. eval_steps_per_second: 0.929
   9. epoch: 5.0
+
+- Base T5 Model vs Fine-tunned T5 Model:
+  | Question                      | Base Model Answers               | Fine-tuned Model Answers                                              |
+  |-------------------------------|----------------------------------|-----------------------------------------------------------------------|
+  | What is (are) Glaucoma?       | ear infection                    | Glaucoma is the most common type of eye disease in the United States. It is the second most common type of disease in the eye, behind macular degeneration and cataracts.                    |
+  | What is High Blood Pressure?   | high blood pressure              | High blood pressure is a risk factor for heart disease, stroke, diabetes, and other health problems. The risk of developing high blood pressure rises with age.               |
+  | What causes Kidney Disease?    | ureters                          | Kidney disease is a disease in which the kidneys do not produce enough blood to carry out the functions they should.                    |
+  | What is (are) Low Vision?      | low vision                       | Low vision is a vision loss caused by a disease called macular degeneration or macular degeneration. Macular degeneration is a condition in which the macula of the eye becomes infected with macular degeneration.                |
+  | What is (are) Diabetes?        | diabetes                         | Diabetes is one of the most common forms of diabetes. It is the most common type of disease among older adults. It is the second leading cause of death in the United States, behind heart disease and stroke.   |
+
       
 ## Conclusion:
 This repository presents a comprehensive solution for Medical Question Answering using the T5 model and the Hugging Face Transformers library. The primary objective is to generate accurate and contextually relevant answers to medical queries.
